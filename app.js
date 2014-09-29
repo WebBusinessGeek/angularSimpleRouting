@@ -10,4 +10,7 @@ app.config(function($routeProvider) {
 		{
 			template: 'This is another template'
 		})
+		.otherwise({
+			redirectTo: '/'
+		});
 });
